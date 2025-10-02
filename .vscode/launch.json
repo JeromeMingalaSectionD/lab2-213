@@ -9,10 +9,12 @@
       "platform": "android"
     },
     {
-      "name": "Attach to packager",
+      "name": "Attach to Hermes application - Experimental",
       "cwd": "C:\\Users\\sherw\\Documents\\CPAN-213\\lab2",
       "type": "reactnative",
-      "request": "attach"
+      "request": "attach",
+      "sourceMaps": true,
+      "port": 8081
     }
   ]
 }

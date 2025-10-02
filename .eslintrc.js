@@ -1,10 +1,10 @@
 module.exports = {
   root: true,
-  extends: [
-    '@react-native-community',
-    'eslint:recommended',
-    'plugin:prettier/recommended',
-  ],
+  extends: '@react-native-community',
+  parser: '@babel/eslint-parser',
+  parserOptions: {
+    requireConfigFile: false,
+  },
   plugins: ['react', 'react-native', 'react-hooks'],
   rules: {
     'react/react-in-jsx-scope': 'off',
